@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "cucustomapps/laravel-feed",
+    "description": "Fork of roumen/feed",
     "keywords": [
-        ":vendor_name",
+        "CUCustomApps",
         "laravel",
-        ":package_slug"
+        "laravel-feed"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/cucustomapps/laravel-feed",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Rich Marisa",
+            "email": "rjm2@cornell.edu",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "CUCustomApps\\Feed\\": "src",
+            "CUCustomApps\\Feed\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "CUCustomApps\\Feed\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "CUCustomApps\\Feed\\FeedServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Feed": "CUCustomApps\\Feed\\Facades\\Feed"
             }
         }
     },
