@@ -1,12 +1,12 @@
 {
-    "name": "cucustomapps/laravel-feed",
+    "name": "richmarisa/laravel-feed",
     "description": "Fork of roumen/feed",
     "keywords": [
         "CUCustomApps",
         "laravel",
         "laravel-feed"
     ],
-    "homepage": "https://github.com/cucustomapps/laravel-feed",
+    "homepage": "https://github.com/richmarisa/laravel-feed",
     "license": "MIT",
     "authors": [
         {
