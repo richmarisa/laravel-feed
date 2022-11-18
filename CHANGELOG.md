@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-feed` will be documented in this file.
 
+## 0.1.2 - 2022-11-18
+
+Fix xml header in blades
+
 ## 0.1.1 - 2022-11-18
 
 Put views in correct directory
