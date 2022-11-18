@@ -2,9 +2,9 @@
 
 namespace CUCustomApps\Feed\Tests;
 
+use CUCustomApps\Feed\FeedServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use CUCustomApps\Feed\FeedServiceProvider;
 
 class TestCase extends Orchestra
 {

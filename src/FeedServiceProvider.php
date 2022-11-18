@@ -2,9 +2,9 @@
 
 namespace CUCustomApps\Feed;
 
+use CUCustomApps\Feed\Commands\FeedCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use CUCustomApps\Feed\Commands\FeedCommand;
 
 class FeedServiceProvider extends PackageServiceProvider
 {
