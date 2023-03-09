@@ -18,7 +18,7 @@ class FeedServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-feed')
             ->hasConfigFile()
-            ->hasViews()
+            ->hasViews('feed')
 //            ->hasMigration('create_laravel-feed_table')
             ->hasCommand(FeedCommand::class);
     }
